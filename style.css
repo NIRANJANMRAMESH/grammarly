@@ -136,6 +136,9 @@ li {
 }
 
 .top-nav-text {
+    padding: .5rem;
+    width: auto;
+    font-weight: 700;
     align-items: center;
     border: 1px solid transparent;
     border-radius: .25rem;
@@ -144,32 +147,11 @@ li {
     font-size: .875rem;
     height: auto;
     line-height: 1.25rem;
-    margin: 0;
-    min-height: 2rem;
-    padding: 0 .75rem;
-    position: relative;
-    text-align: center;
-    font-weight: 700;
-    letter-spacing: -.01em;
+    font-family: 'gylph-bold';
 
 }
 
 .top-nav-btn {
-    align-items: center;
-    background-color: #027e6f;
-    border: none;
-    border-radius: .375rem;
-    box-sizing: border-box;
-    cursor: pointer;
-    display: flex;
-    font-family: inherit;
-    font-size: .875rem;
-    justify-content: center;
-    max-width: 100%;
-    outline: none;
-    text-decoration: none;
-    width: max-content;
-    color: #fff;
     background: #027e6f;
     border: 1px solid transparent;
     color: #fff;
@@ -177,8 +159,12 @@ li {
     margin-inline: 8px;
     padding-block: 0;
     padding-inline: 8px;
-    height: 32px;
-
+    line-height: 2rem;
+    min-height: 2rem;
+    padding: 0 .5rem;
+    border-radius: .375rem;
+    font-family: 'gylph';
+    white-space
 }
 
 
