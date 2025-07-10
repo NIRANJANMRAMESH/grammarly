@@ -794,7 +794,7 @@ li {
 
 
 /* white scroll box ------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-.above-footer-none {
+/* .above-footer-none {
     position: relative;
 }
 
@@ -946,7 +946,7 @@ li {
 .arrow-left {
     rotate: 180deg;
 }
-
+*/
 
 .terms-of-mainf {
     color: #333954;
@@ -963,6 +963,188 @@ li {
     color: #027e6f;
     font-size: .875rem;
     line-height: 1.3125rem;
+}
+
+
+.scroll-main-div {
+  
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+
+.full-width-scroll {
+    max-width: 1280px;
+    margin: auto;
+    padding: 32px 0;
+}
+
+.scrollable-inside-fullwidth {
+    position: relative;
+
+}
+
+.scrollable-content-box {
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 0 8px 0 0;
+    scrollbar-width: none;
+    gap: 20px;
+    height: 500px;
+}
+
+.content-scrollable {
+    width: calc(100vw - 2rem);
+    flex: 0 0 auto;
+    height: max-content;
+    border-radius: .5rem;
+    display: flex;
+    background-color: #fff;
+}
+
+.scrollable-content-full {
+    position: relative;
+    display: flex;
+    padding: 24px 32px;
+
+}
+
+.inbuild-content-flex {
+    gap: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 0 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+.image-logo-tag {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    height: 2rem;
+}
+
+.details-os-data {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    gap: .5rem;
+    min-height: 1.5rem;
+    height: 6.625rem;
+}
+
+.box-contenet-h3 {
+    font-size: 2.215rem;
+    line-height: 2.375rem;
+    color: #1c1c1c;
+    margin: 0;
+    font-family: 'matterb';
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-style: normal;
+
+}
+
+.details-breif-para {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin: 0;
+    color: #0e101a;
+}
+
+
+.personel-details-all {
+    height: 7.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.person-text {
+    height: 2.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.person-name-designation {
+    margin: 0;
+    font-size: .875rem;
+    line-height: 1.3125rem;
+    color: #0e101a;
+}
+
+.person-img {
+    width: 64px;
+    height: 64px;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.more-content-link {
+    margin-top: auto;
+    color: #0d8065;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+}
+
+.scroll-button{
+    display: flex;
+    flex-direction:row ;
+    gap: .5rem;
+    justify-content: flex-end;
+    margin-top: .25rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.previous-btn{
+    border: 1.5px solid #c6cbde;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    
+}
+
+
+.previous-btn-right{
+    border: 1.5px solid #ffffff;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    
+}
+.content-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chevron_left__JS9Y0{
+    transform: rotate(180deg);
 }
 
 /* above footer---------------------------------------------------------------------------------------------------- */
@@ -1266,15 +1448,26 @@ li {
         line-height: 2.875rem;
     }
 
-    .plan-box{
-       display: grid;
-       grid-template-columns: repeat(3,1fr);
-       gap: 0px;
+    .plan-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0px;
 
     }
 
-   .first-box-of{
-    grid-column: 2;
-    grid-row: 1;
-   }
+    .first-box-of {
+        grid-column: 2;
+        grid-row: 1;
+    }
+}
+
+
+@media screen and (min-width:1081px) {
+
+    .main-sec {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+
 }
